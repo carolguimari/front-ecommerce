@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #1D2226;
+    margin: 0;
+}
+
+.topo {
+    display: flex;
+    padding: 1em;
+    background: #0F1C26;
+    justify-content: center;
+}
+
+.topo-centro {
+    min-width: 90%;
+    display: flex;
+    background: #0F1C26;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.2em 1em 0.2em 1em;
+}
+
+.logo-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo-centro input {
+    min-width: 30%;
+    margin: 0.2em 1em 0.2em 1em;
+    padding: 0.2em;
+    background: #171B1E;
+    color: whitesmoke;
+}
+
+::placeholder {
+    color: whitesmoke;
+    margin-left: 1em;
+}
+
+.menu {
+    min-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color:whitesmoke;
+    
+}
+
+.sub img {
+    margin-right: 0.3em;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+  
+}
+.centro {
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    margin-right: 3em;
+    border: 1px solid yellow;
+
+}
+
+.banner {
+    border: 1px solid green;
+}
+
+
+h3 {
+    color: whitesmoke;
+}
+
+.top-filmes, .filmes {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lista-top {
+    display: flex;
+    position: relative;
+}
+
+.conteiner-top {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    width: 168px;
+    height: 301px;
+    background-size: cover;
+    background-position: center;
+    margin: 1em;
+    padding: 12px 8px 6px;
+    position: relative;
+  
+}
+
+li > * {
+    position: relative;
+}
+
+.estrela, .adicionar {
+    align-self: flex-start;
+}
+
+.titulo-nota {
+    margin-top: auto;
+    margin-bottom: 8px;
+    color: #FDFDFD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nota {
+    color: #fbcc76;
+    font-size: 12px;
+}
+
+h5 {
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.conteiner-top button {
+    background: linear-gradient(0deg, #A785ED, #A785ED), #C4C4C4;
+    padding: 0.5em;
+    color: whitesmoke;
+    font-weight: bold;
+    border-width: thin;
+    border: linear-gradient(0deg, #A785ED, #A785ED), #C4C4C4;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+}
+
+.categorias  button {
+    border:  2px solid #FFFFFF;
+    min-width: 10em;
+    margin: 1em;
+    padding: 0.5em;
+    background: #1D2226;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista {
+    display: flex;
+    position: relative;
+}
+
+.conteiner-dez {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.conteiner-dez button {
+    background: linear-gradient(0deg, #A785ED, #A785ED), #C4C4C4;
+    padding: 0.5em;
+    color: whitesmoke;
+    font-weight: bold;
+    border-width: thin;
+    border: linear-gradient(0deg, #A785ED, #A785ED), #C4C4C4;
+}
+
+.conteiner-dez h5 {
+    color: #FDFDFD;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.sacola {
+    display: flex;
+    margin-top: 2.8em;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+
+}
+
+.topo-sacola {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0deg, #A785ED, #A785ED), #C4C4C4;
+    padding: 0.5em;
+}
+
+.topo-sacola img {
+    margin: 0.5em;
+}
+
+.meio-sacola {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h4 {
+    color: #FDFDFD;
+    font-weight: bold;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+   
+}
+
+.texto2 {
+    display:flex;
+    flex-direction:column;
+    color: whitesmoke;
+    padding: 1em;
+}
+
+input {
+    padding: 1em;
+    min-width: 90%;
+    background: #0B1217;
+}
+
+.carrinho {
+    display: flex;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.carrinho img {
+    max-width: 70px;
+    margin: 1em;
+}
+
+.titulo-preco {
+    display:flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.quantidade {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: 30px;
+    padding: 0.5em;
+}
+
+.contagem {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.quadrado-cheio {
+    display: flex;
+    background: #E25EBF;
+    margin: 1em;
+    padding: 1em;
+}
